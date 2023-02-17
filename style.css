@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ul_list{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    margin-left: 100px;
+}
+.home{
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+    .hamburger,.ham,.cross{
+        display: none;
+    
+}
+@media only screen and (max-width: 700px) {
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .ham{
+      width: 20px;
+      
+    }
+    .cross{
+    width: 20px;
+    margin-left: 135px;
+    }
+}
+.navbar{
+    background-color: beige;
+}
+.logo{
+    width: 69px;
+   margin-right: 20px;
+}
+.main{
+    display: flex;
+    flex-direction:row;
+    /* background-color: aqua; */
+    justify-content: center;
+    padding: 50px;
+}
+.profile{
+    width: 350px;
+    /* padding: 30px; */
+    border-radius: 35px;
+}
+.about{
+    margin-left: 30px;
+    /* background-color: red; */
+    width: 700px;
+}
+.button{
+    margin-top: 10px;
+    padding: 10px;
+}
+.cv{
+    padding: 10px;
+
+}
+.moreaboutskills{
+   /* margin-top: 20px;
+     margin-left: 100px; */
+    /* width: 500px; */
+    padding: 10px;
+   
+    
+    /* background-color: brown; */
+}
+.projects{
+    
+    background-color: blue;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+.blog{
+    background-color: green;
+}
+.ins_logo{
+    
+    width: 100px;
+   margin-right: 20px; 
+}
+.in_about{
+    margin-top: 20px;
+}
+.education{
+justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.skillitem{
+    display: flex  ;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.skill{
+    width: 200px;
+    height: 6px;
+    background-color: red;
+    
+}
+.hundered{
+    width: 100px;
+    height: 6px;
+    background-color: yellow;
+    }
+.t5{
+    width: 65px;
+    height: 6px;
+    background-color: aqua;
+    }
+.others{
+    width: 50px;
+    height: 6px;
+    background-color: green;
+    
+}
+.c-plus-lang{
+    width: 120px;
+    height: 6px;
+    background-color: brown;
+}
+
+
+
+
+
+.c_lang{
+    width: 80px;
+    height: 6px;
+    background-color: darkturquoise;
+}
+.t4{
+    width:150px;
+    height: 6px;
+    background-color: pink;
+}
+/* .pro_1{
+    padding: 10px;
+}
+.pro_2{
+    padding: 10px;
+}
+.pro_3{
+    padding: 10px;
+} */
+.center_tag{
+    margin: auto;
+  width: 70%;
+  /* border: 3px solid brown ; */
+  padding: 10px;
+}
+.skill_main{
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid brown ; */
+    
+}
+.social_media{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.twitter{
+    cursor: pointer;
+    width: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.final_love{
+    margin: auto;
+    width: 50%;
+    /* background-color: brown; */
+}
+.connect_us{
+    margin: auto;
+    width: 50%;
+    
+    /* width: 100px; */
+}
+.fin_text{
+    margin-left: 50px;
+}
+.all_blog{
+    margin: auto;
+    width: 50%;
+}
+.all_projects{
+    
+    margin: auto;
+    width: 50%;
+}
+@media (max-width: 1350px) {
+    .center_tag{
+        width: 100%;
+        height: 100%;
+    
+    }
+  }
+  @media (max-width: 900px) {
+    
+    .main{
+       display: flex;
+       flex-direction: column;
+    
+    }
+    .image{
+        margin: auto;
+        width: 50%;
+    }
+    .myself{
+        margin-top: 20px;
+    }
+    .myself h1{
+        display: none;
+    }
+  }
